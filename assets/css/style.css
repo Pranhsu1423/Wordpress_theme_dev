@@ -1,0 +1,46 @@
+/*** Navbar Start ***/
+#primary-menu ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+li.page_item {
+    padding: 22px 17px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: table-caption;
+}
+li.page_item a{
+    color: #000;
+}
+li.page_item a:focus, li.page_item a:hover {
+    color: #0092ac;
+    text-decoration: none;
+}
+
+.elementor-shortcode {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.elementor-shortcode .client{
+    background-color: #fff;
+    padding: 12px;
+}
+
+
+/*** Navbar End ***/
+
+
+/*** Footer Start ***/
+
+/*** Footer End ***/
+
+@media (max-width: 768px) {
+    #primary-menu ul{
+        display: block;
+        flex-direction: row-reverse;
+    }
+}
