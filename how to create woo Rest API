@@ -1,0 +1,13 @@
+How to connect Woo API to  Software:-
+Youtube: https://www.youtube.com/watch?v=5qGz7EiAYXQ
+Woo all Endpoints-
+GET All Products: https://www.yoursitename.com/wp-json/wc/v3/products
+GET Specific Product by ID: https://www.yoursitename.com/wp-json/wc/v3/products/{id}
+API Query with Your Keys: https://www.yoursitename.com/wp-json/wc/v3/products?sumer_key=ck_your_consumer_key&consumer_secret=cs_your_consumer_secret
+GET Stock Status: GET /wp-json/wc/v3/products?stock_status={instock|outofstock|onbackorder}
+GET Product Attributes: https://www.yoursitename.com/wp-json/wc/v3/products/attributes
+GET All Tags: https://www.yoursitename.com/wp-json/wc/v3/products/tags
+GET All Categories: https://www.yoursitename.com/wp-json/wc/v3/products/categories
+GET All Coupons: https://www.yoursitename.com/wp-json/wc/v3/coupons
+GET All Customers: https://www.yoursitename.com/wp-json/wc/v3/customers
+GET All Orders: https://www.yoursitename.com/wp-json/wc/v3/orders
