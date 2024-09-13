@@ -1,0 +1,116 @@
+/*
+Theme Name: blogTruefirm
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: astra
+
+This is the child theme for Astra theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+body {
+    font-family: 'Poppins';
+}
+/*custom css*/
+.header-top-row {
+    display: flex;
+    justify-content: space-between;
+		align-items: center;
+    max-width: 1240px;
+    padding: 10px 30px;
+    margin: auto;
+		text-align:center;
+}
+.header-top-row .sub-menu {
+    text-align: left;
+}
+ul.sub-menu {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.nav-buttons .btn {
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: auto 5px;
+}
+.primary-btn {
+    background-color: #f27264 !important;
+    border: 2px solid #f27264 !important;
+}
+.nav-buttons .primary-btn a{color:#fff;}
+.nav-buttons .secondary-btn  a{color:#f27264;}
+.nav-buttons .secondary-btn {background-color: #fff !important;border: 2px solid #f27264;}
+.primary-btn:hover, .secondary-btn:hover {box-shadow: 0 5px 8px #f07164a8;}
+.header-bottom-row {
+    margin: 0 auto;
+    max-width: 1240px;
+	  color: gray;
+    font-size: 14px;
+}
+.header-bottom-row sup {color: #f74f5a;font-size: 12px;margin: 4px;font-weight: 600;}
+.nev-header {background-color: white;border-top: 1px solid rgb(221, 222, 225);position: relative;box-shadow: rgba(50, 53, 59, 0.15) 0px 2px 3px 0px;
+}
+@media only screen and (max-width: 768px) {
+	button.menu-toggle.main-header-menu-toggle.ast-mobile-menu-trigger-minimal{
+    background: #f07164;
+    padding: 6px;
+}
+	.nav-buttons .btn {
+    border-radius: 40px;
+    padding: 7px 20px;
+    font-size: 12px;
+    margin: 3px 5px;
+}
+	.header-top-row {
+		justify-content: center;}
+.logo-container {
+    display: none;
+}
+section#footer-short-contact .row {align-items: flex-start !important;
+    padding: 60px 15px !important;
+    flex-direction: column;
+}
+#footer-short-contact .primary-btn {border-radius: 40px !important;padding: 7px 20px !important;font-size: 12px !important;}
+.tf-h2 {
+        font-size: 22px !important;
+	margin-bottom:12px
+    }
+}
+/* footer */
+section#footer-short-contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+		padding: 90px 15px;
+    max-width: 1240px;
+}
+.tf-h2 {
+    font-size: 30px;font-weight: 600!important;max-width:850px;
+}
+#footer-short-contact a{
+	color:#fff;
+}
+#footer-short-contact .primary-btn {
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: auto 5px;
+}
+.social-icons a {height: 40px;width: 40px;padding: 0px;color: #f07164;background-color: #fff;font-size: 20px;border: 2px solid #f07164;border-radius:4px;}
+.social-icons a:hover {background-color: rgba(0,95,221,1);border: 1px solid rgba(0,95,221,1);}
+.mb-4.social-icons {display: flex;align-items: center;justify-content: space-between;max-width: 250px;margin: auto;}
+.tf-h5 {text-align: center;font-size: 15px!important;font-weight: 800;margin-bottom: 6px;text-transform: uppercase;}
+ul.list-unstyled a{
+	color: #293241;}
+ul.list-unstyled {
+	 color: #293241;
+  font-size: 14px;
+	text-align:center;
+}
