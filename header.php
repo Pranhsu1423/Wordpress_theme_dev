@@ -1,3 +1,4 @@
+// Theme URI: https://github.com/WordPress/wordpress-develop  (this is Theme and Wordpress development URL we can use this file code and create on theme, Wordpress & Plugin). 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
