@@ -1,4 +1,5 @@
-// the custom Breadcrumb Function by Pranshu Singh
+//The custom Breadcrumb Function by Pranshu Singh
+
 function the_breadcrumb() {
     if (!is_front_page()) {
         echo '<nav class="breadcrumb">';
