@@ -1,0 +1,24 @@
+// the custom Breadcrumb Function by Pranshu Singh
+function the_breadcrumb() {
+    if (!is_front_page()) {
+        echo '<nav class="breadcrumb">';
+        echo '<a href="' . home_url() . '">Home</a>';
+        echo ' &raquo; ';
+        
+        if (is_category() || is_single()) {
+            the_category(' &raquo; ');
+            if (is_single()) {
+                echo ' &raquo; ';
+                the_title();
+            }
+        } elseif (is_page()) {
+            echo the_title();
+        } elseif (is_search()) {
+            echo 'Search results for: ' . get_search_query();
+        }
+        
+        echo '</nav>';
+    }
+}
+// shortcode
+<?php the_breadcrumb(); ?>
